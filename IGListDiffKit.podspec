@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.authors = 'Instagram'
   s.social_media_url = 'https://twitter.com/fbOpenSource'
   s.source = {
-    :git => 'https://github.com/Instagram/IGListKit.git',
+    :git => 'https://github.com/SongShift/IGListKit.git',
     :tag => s.version.to_s,
-    :branch => 'stable'
+    :branch => 'master'
   }
 
   s.source_files = 'Source/IGListDiffKit/**/*.{h,m,mm}'
